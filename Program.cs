@@ -1,10 +1,9 @@
-﻿namespace StudentManagement
+﻿class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        UserInterface ui = new UserInterface();
+        ui.Start();
+        // Call other UI methods as needed
     }
 }
